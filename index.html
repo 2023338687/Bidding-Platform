@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Auction - Bid on Unique Items</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">GlobalAuction</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#auctions">Auctions</a>
+                <a href="#sell">Sell</a>
+                <a href="#about">About</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fas fa-user"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">My Bids</a>
+                        <a href="#">Watchlist</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+                <a href="#" class="notifications"><i class="fas fa-bell"></i><span class="badge">3</span></a>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Rare & Unique Items</h1>
+            <p>Bid on antiques, collectibles, art, and more from around the world</p>
+            <div class="hero-buttons">
+                <a href="#auctions" class="btn-primary">Browse Auctions</a>
+                <a href="#sell" class="btn-secondary">Start Selling</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="auctions" class="featured-auctions">
+        <div class="container">
+            <h2>Featured Auctions</h2>
+            <div class="auction-grid" id="auctionGrid">
+                
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="categories">
+        <div class="container">
+            <h2>Popular Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <i class="fas fa-gem"></i>
+                    <h3>Jewelry</h3>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Art</h3>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-car"></i>
+                    <h3>Vehicles</h3>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Antiques</h3>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-music"></i>
+                    <h3>Collectibles</h3>
+                </div>
+                <div class="category-item">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Electronics</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <div id="auctionModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body" id="modalBody">
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GlobalAuction</h3>
+                    <p>The premier platform for buying and selling unique items through competitive bidding.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#auctions">Auctions</a></li>
+                        <li><a href="#sell">Sell</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@globalauction.com</li>
+                        <li><i class="fas fa-phone"></i> +91 8448625980</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GlobalAuction. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
